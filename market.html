@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="market.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <title>Market</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav--logo--container"><a href="index.html" class="nav--item">Home</a></div>
+            <div class="nav--items">
+                <a href="index.html#projects" class="nav--item">Projects</a>
+                <a href="index.html#about" class="nav--item">About me</a>
+                <a href="index.html#contact" class="nav--item">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="body--bg">
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section--title">💰 MARKET - full stack web app for selling, buying, and requesting second hand products.</h3>
+                <div class="projects--container">
+                    <div class="project--container">
+                        <div class="right">
+                            <div class="p--screenshot-container">
+                                <img src="localhost_3000_.png" alt="Market Website Screenshot Landing Page"
+                                    class="p--screenshot" />
+                            </div>
+                        </div>
+                        <div class="devider"></div>
+                        <div class="right">
+                            <div class="p--screenshot-container">
+                                <img src="Merged_document.png" alt="Market Website Screenshot Profile Page"
+                                    class="p--screenshot" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2 class="section--title">Docs</h2>
+                <div class="about--all">
+                    <div class="about--container">
+                        <div class="about--header">
+                            <div class="file--name">README.md</div>
+                            <div class="intersection--box"></div>
+                        </div>
+                        <div class="about--content">
+                            <p>
+                                MARKET is a website for Northwestern students to request and sell second-hand
+                                items. This full stack application is built with the MERN-Stack and uses Redux
+                                for state management, styled with Material-UI.
+                            </p>
+                            <p>
+                                The app features responsive frontend design with CRUD functionalities,
+                                search/filtering/pagination, account page, user portal, uploading images, and
+                                adding to favorites using
+                                <span class="p--high">ReactJs</span> and <span class="p--high">Redux</span>,
+                                styled with
+                                <span class="p--high">Material-UI.</span>
+                            </p>
+                            <p>
+                                The frontend is consuming an <span class="p--high">ExpressJs</span> Rest API
+                                with many End-Points which allows user to can register, login, create, update,
+                                and delete listings and requests.
+                                <br />
+                                <span class="p--high">MongoDB</span> is used for database and deployed to <span
+                                    class="p--high">AWS EC2</span>.
+                            </p>
+                            <p>
+                                Used <span class="p--high">Cloudinary</span> to manage image uploads,
+                                incorporated JWT and Google authorizations using <span
+                                    class="p--high">Passport.js</span>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about--container">
+                        <div class="about--header">
+                            <div class="file--name">dev_log.txt</div>
+                            <div class="intersection--box"></div>
+                        </div>
+                        <div class="about--content">
+                            <p>
+                                I was working with Julia Chu on this project. We both implemented frontend components while she was focusing more on frontend designs and I was focusing more on backend and database.
+                            </p>
+                            <p>
+                                By the time I started the project, I had no experience with building web apps, and I ended up learning tremendously from this project. I learned how to use React, Redux, and Express to build a full-stack web app. I also learned about implementing authentication and APIs. I learned how to use MongoDB to store data and how to use Mongoose to interact with the database, as well as other services such as Cloudinary and Passport.js.
+                            </p>
+                            <p>
+                                In the future, I want to put this website into production and implement a chatting feature so that a seller and a buyer can communicate with each other.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <script src="market.js"></script>
+</body>
+
+</html>
